@@ -1,0 +1,4 @@
+{
+  "description": "Summarizes the given content in a specific tone.",
+  "template": "Summarize the following content written in single quotetion in a {tone} tone. '{content}'"
+}
