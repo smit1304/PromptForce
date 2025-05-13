@@ -22,3 +22,4 @@ export const callGemini = async (prompt) => {      // Function to send prompt to
     throw new Error("Failed to generate response from Gemini");
   }
 };
+

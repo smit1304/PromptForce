@@ -1,4 +1,4 @@
 {
   "description": "Summarizes the given content in a specific tone.",
-  "template": "Summarize the following content written in single quotetion in a {tone} tone. '{content}'"
+  "template": "Summarize the following content written in single quotetion in a {tone} tone. Keep the word limit to {wordLimit} words and try to match the word count to exact word limit. Keep the summerised content in a single paragraph. '{content}'"
 }
