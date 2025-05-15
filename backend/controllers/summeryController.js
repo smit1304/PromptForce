@@ -40,7 +40,7 @@ export const generateSummary = async (req, res) => {
     
     // Sends the final result as JSON back to the client
     
-    //res.json({ summary: result.trim() });
+    res.json({ summary: result.trim() });
 
   } catch (err) {
     // Handles any errors from the OpenAI service
